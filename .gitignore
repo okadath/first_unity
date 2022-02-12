@@ -1,12 +1,14 @@
+/Assets/XR/
+/Assets/XRI/
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-cel/
-pc_build/
-WEB/
+/cel/
+/pc_build/
+/WEB/
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # [Aa]ssets/AssetStoreTools*
 
