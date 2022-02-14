@@ -26,7 +26,7 @@ public class NewBehaviourScript : MonoBehaviour
         float inc = 10f;
         inc+=(Time.deltaTime * 1000 - 1) * 10;
         mymat.SetVector("_EmissionColor", new Vector4(inc , 176f, 100f, 10f) );
-        Debug.Log(mymat.GetVector("_EmissionColor"));
+        //Debug.Log(mymat.GetVector("_EmissionColor"));
        // Debug.Log();
 
     }

@@ -51,17 +51,17 @@ public class cone_color : MonoBehaviour
         Material mymat = GetComponent<Renderer>().material;
         //mymat.SetColor("_EmissionColor", Color.blue
         elapsed += Time.deltaTime;
-        if (elapsed >= .1f)
+        if (elapsed >= .01f)
         {
-            elapsed = elapsed % .1f;
+            elapsed = elapsed % .01f;
             a = oscila_0_255(a);
             b= oscila_0_255(b);
 
         }
-        color = new Vector4( a[0] , b[0], 0)  ;
+        color = new Vector4( a[0] ,0, b[0],10)  ;
         mymat.SetVector("_EmissionColor", color);
-        Debug.Log(mymat.GetVector("_EmissionColor"));
-       Debug.Log(a);
+        //Debug.Log(mymat.GetVector("_EmissionColor"));
+       //Debug.Log(a);
 
     }
 }
